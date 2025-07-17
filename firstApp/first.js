@@ -190,3 +190,29 @@
 // } else {
 //   console.log(number + " is NOT a Perfect Number");
 // }
+
+// 18.]print all divisor
+// let number=12;
+// for(let i=1;i<=number;i++){
+//     if(number %i===0){
+//         console.log(i);
+//     }
+// }
+
+// 19.]number is positive,negative or zero
+// let number = -5; 
+
+// if (number > 0) {
+//   console.log(`${number} is positive`);
+// } else if (number < 0) {
+//   console.log(`${number} is negative`);
+// } else {
+//   console.log(`Number is zero`);
+// }/
+
+// 20.]find power(exponentiation)
+let a = 5;
+let b = 6;
+
+let result = Math.pow(a, b);
+console.log(result); 
