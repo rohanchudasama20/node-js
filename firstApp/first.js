@@ -54,7 +54,7 @@
 // console.log("reverse number is"+Reverse);
 
 // 8.] Palindrome Check (Number)
-// let number=155;
+// let number=121;
 // let digit1=number%10;
 // let digit2=Math.floor((number%100)/10);
 // let digit3=Math.floor(number/100);
@@ -65,8 +65,8 @@
 //   console.log(number+"is not palindrom number")
 // }
 
-// 8.] Palindrome Check (Number)
-// let number=4;
+// 9.] prime number (Number)
+// let number=121;
 // if(number===1){}
 //   else if(number>1){
 //     let isprime=true;
@@ -211,8 +211,8 @@
 // }/
 
 // 20.]find power(exponentiation)
-let a = 5;
-let b = 6;
+// let a = 2;
+// let b = 6;
 
-let result = Math.pow(a, b);
-console.log(result); 
+// let result = Math.pow(a, b);
+// console.log(result); 
