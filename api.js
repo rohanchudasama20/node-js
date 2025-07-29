@@ -29,6 +29,16 @@ app.post('/update/:id/email/:email',(req,res)=>{
     );
 });
 
+app.post('/delete/:id/email/:email',(req,res)=>{
+    const {id,email}=req.params;
+    res.json({
+        message:"delete data succesfully",
+        data_id:{id,email}
+    }
+
+    );
+});
+
 app.listen(port, () => {
   console.log(`server is running http://localhost:${port}`);
 });
