@@ -216,3 +216,24 @@
 
 // let result = Math.pow(a, b);
 // console.log(result); 
+
+
+function isPalindromeNumber(number) {
+    // Convert the number to string
+    let str = number.toString();
+
+    // Reverse the string
+    let reversedStr = str.split('').reverse().join('');
+
+    // Compare original and reversed string
+    if (str === reversedStr) {
+        console.log(number + " is a palindrome number.");
+    } else {
+        console.log(number + " is not a palindrome number.");
+    }
+}
+
+// Example usage
+isPalindromeNumber(121);   // Output: 121 is a palindrome number.
+isPalindromeNumber(123);   // Output: 123 is not a palindrome number.
+
