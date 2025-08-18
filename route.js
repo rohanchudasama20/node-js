@@ -1,7 +1,7 @@
 // const express=require('express');
 // const router=express.Router();
 
-// const users=[];
+// const consrusers=[];
 // //route calling
 
 // router.post('/signup',(req,res)=>{
